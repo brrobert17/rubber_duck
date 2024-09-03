@@ -3,11 +3,9 @@ body {
 }
 
 #duck {
-    --margin: 10em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5em var(--margin);
 }
 
 .header {
@@ -15,8 +13,9 @@ body {
     color: rgb(113, 44, 44);
 }
 
+
 .image-cont {
-    --size: 15em;
+    --size: 20em;
     width: var(--size);
     height: var(--size);
     aspect-ratio: 1/1;
@@ -26,7 +25,28 @@ body {
     height: 100%;
     width: 100%;
 }
-.tooltip{
+
+.main-div,
+#duck {
+    --margin: 10em;
+    margin: 5em var(--margin);
+}
+
+.main-div {
+    color: rgb(113, 44, 44);
+    display: flex;
+    gap: 30em;
+}
+
+
+#my-button {
+    background-color: rgb(113, 44, 44);
+    color: white;
+}
+
+
+
+.tooltip {
     display: none;
     background-color: rgb(55, 168, 24);
     border-radius: 10px;
@@ -34,10 +54,12 @@ body {
     position: fixed;
     padding: 4px;
 }
+
 .visible {
     display: unset;
 }
-.tooltip{
+
+.tooltip {
     display: none;
     background-color: rgb(55, 168, 24);
     border-radius: 10px;
@@ -45,6 +67,7 @@ body {
     position: fixed;
     padding: 4px;
 }
+
 .visible {
     display: unset;
 }
