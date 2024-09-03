@@ -1,6 +1,28 @@
-#duck {
-    display: flex;
+body {
+    background-color: bisque;
 }
-#duck img{
-    height: 150px;
+
+#duck {
+    --margin: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5em var(--margin);
+}
+
+.header {
+    font-size: 3.5em;
+    color: rgb(113, 44, 44);
+}
+
+.image-cont {
+    --size: 15em;
+    width: var(--size);
+    height: var(--size);
+    aspect-ratio: 1/1;
+}
+
+.image-cont img {
+    height: 100%;
+    width: 100%;
 }
