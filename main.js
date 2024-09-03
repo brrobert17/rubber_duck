@@ -1,6 +1,7 @@
 const myButton = document.querySelector('#my-button');
 const myList = document.querySelector('#my-list');
 const duckImg = document.querySelector('#duck-img');
+const myInput = document.querySelector('#my-input');
 myButton.addEventListener('click', (e) => {
 
 })
