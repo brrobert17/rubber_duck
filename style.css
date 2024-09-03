@@ -4,3 +4,14 @@
 #duck img{
     height: 150px;
 }
+.tooltip{
+    display: none;
+    background-color: rgb(55, 168, 24);
+    border-radius: 10px;
+    color: black;
+    position: fixed;
+    padding: 4px;
+}
+.visible {
+    display: unset;
+}
